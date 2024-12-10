@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profil</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="profile-app">
+    <h2>Gérer votre image de profil</h2>
+
+    <!-- Zone pour afficher l'image actuelle -->
+    <img
+      id="profile-image"
+      src="https://via.placeholder.com/150"
+      alt="Image de profil"
+      style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 20px;"
+    />
+
+    <!-- Formulaire pour télécharger une image -->
+    <form id="profile-form">
+      <input type="file" id="profile-input" accept="image/*" />
+      <button type="button" id="upload-button">Télécharger</button>
+    </form>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
